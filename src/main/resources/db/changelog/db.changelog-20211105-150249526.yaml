@@ -1,0 +1,15 @@
+databaseChangeLog:
+- changeSet:
+    id: 1636124577248-1
+    author: your_liquibase_username (generated)
+    changes:
+    - dropUniqueConstraint:
+        constraintName: username
+        tableName: users
+- changeSet:
+    id: 1636124577248-2
+    author: your_liquibase_username (generated)
+    changes:
+    - dropTable:
+        tableName: users
+
